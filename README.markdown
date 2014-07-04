@@ -17,7 +17,7 @@ for a list of the 41 programming languages supported by this plugin.
 Requirements
 ------------
 
-This plugins is for Gedit 3 and is **not compatible with Gedit 2.x**. 
+This plugins is for Gedit 3.12 and is **not compatible with Gedit 2.x**. 
 
 The Gedit Source Code Browser plugin uses 
 [Exuberant Ctags](http://ctags.sourceforge.net/) to parse symbols
