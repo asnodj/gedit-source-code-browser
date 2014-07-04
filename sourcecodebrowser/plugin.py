@@ -353,7 +353,7 @@ class SourceCodeBrowserPlugin(GObject.Object, Gedit.WindowActivatable, PeasGtk.C
             obj.disconnect(hid)
         self._handlers = None
         pane = self.window.get_side_panel()
-        pane.remove_item(self._sourcetree)
+        pane.remove(self._sourcetree)
         self._sourcetree = None
     
     def _has_settings_schema(self):
